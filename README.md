@@ -17,15 +17,15 @@ Please note in order to test this app you will need to grab a Google Maps API ke
 You will also need a firebase project. Once you have gone through the process of setting up a firebase project for Android apps, put your google-services.json file the app root directory. The data structure needed within your realtime database is as follows:
 
 ## flash =>
-  color
+  color,
   number
 ## provider =>
-  connected
-  latitude
+  connected,
+  latitude,
   longitude
 ## requestor =>
-  connected
-  latitude
+  connected,
+  latitude,
   longitude
 
 This requires two devices and GPS spoofing. You will need to differentiate coordinates so that the distance between requestor and provider is greater than 100 meters. After this has been set you can set the role on both devices, and now proceed to set the GPS so that they are very close or identical (within 100m). 
