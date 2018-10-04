@@ -16,14 +16,14 @@ I saw a scene with driver and rider phones flashing the same color and number. T
 Please note in order to test this app you will need to grab a Google Maps API key. Insert this into the AndroidManifest.xml file where it currently shows YOUR_API_KEY_HERE. 
 You will also need a firebase project. Once you have gone through the process of setting up a firebase project for Android apps, put your google-services.json file the app root directory. The data structure needed within your realtime database is as follows:
 
-## flash =>
+### flash =>
   color,
   number
-## provider =>
+### provider =>
   connected,
   latitude,
   longitude
-## requestor =>
+### requestor =>
   connected,
   latitude,
   longitude
