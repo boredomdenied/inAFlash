@@ -1,0 +1,12 @@
+Problem:
+
+Several years back now I took an Uber and started chatting with the driver. I asked how he liked the job and he said it was overall good; however sometimes things can get chaotic. I asked if he wouldn’t mind elaborating and was told of a situation where his fare would be at a large event. Arriving to a crowd of participants looking for their Uber/Lyft, it was confusing to match fare with ride. Instantaneously I solved this problem.
+
+
+Solution:
+
+I saw a scene with driver and rider phones flashing the same color and number. This was a link which could provide both parties the means to verify each other. The rider will orient their displays so that the screen is facing out towards the rides streaming by after the “your driver is arriving” is displayed. From the drivers POV, they see a card with the same pattern within their app and can view the match outside amongst the crowd. Two way verification can be had by driver rolling down the window and showing it back to the rider.
+
+Notes to Reviewer:
+
+This is a POC/Demo app. It is intended as a means to show off an idea only. This is not intended for production. It requires two devices to test the functionality. You can use emulators or a physical device, but must be able to spoof the GPS coordinates. When devices are within 100 meters of each other, the second activity kicks off. Please enter in two GPS coordinates that correspond to a distance greater than 100M, then you can copy one devices GPS to another and see the changes. The second activity will kick off in a matter of seconds. 
