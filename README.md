@@ -11,7 +11,7 @@ Several years back now I took an Uber and started chatting with the driver. I as
 
 I saw a scene with driver and rider phones flashing the same color and number. This was a link which could provide both parties the means to verify each other. The rider will orient their displays so that the screen is facing out towards the rides streaming by after the “your driver is arriving” is displayed. From the drivers POV, they see a card with the same pattern within their app and can view the match outside amongst the crowd. Two way verification can be had by driver rolling down the window and showing it back to the rider.
 
-
+## Development
 
 Please note in order to test this app you will need to grab a Google Maps API key. Insert this into the AndroidManifest.xml file where it currently shows YOUR_API_KEY_HERE. 
 You will also need a firebase project. Once you have gone through the process of setting up a firebase project for Android apps, put your google-services.json file the app root directory. The data structure needed within your realtime database is as follows:
