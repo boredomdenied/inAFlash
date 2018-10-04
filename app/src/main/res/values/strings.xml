@@ -1,3 +1,63 @@
 <resources>
-    <string name="app_name">Capstone</string>
+
+    <string name="app_name">In A Flash</string>
+    <string name="requestor">Requestor</string>
+    <string name="provider">Provider</string>
+    <string name="location">Location</string>
+
+    <string name="locationTextView">Are you a requestor or provider?</string>
+    <string name="distanceTextView">Distance has yet to be calculated</string>
+    <string name="onClickRequestorButton">Please set Location</string>
+    <string name="onClickProviderButton">Awaiting requestor location</string>
+
+    <string name="launch_activity">Launch activity</string>
+    <string name="location_unknown">Location unknown</string>
+    <string name="location_updates_label">Location Updates</string>
+    <string name="settings">Settings</string>
+    <string name="ok">OK</string>
+
+    <!--FlashWidgetProvider-->
+    <string name="appwidget_text">Location not yet set</string>
+    <string name="add_widget">Add widget</string>
+    <string name="distance_is">Distance is: </string>
+
+
+    <!--GpsUpdateService-->
+    <string name="client_unbound">Last client is unbound</string>
+    <string name="request_location_updates">Request location updates</string>
+    <string name="remove_location_updates">Remove location updates</string>
+    <string name="starting_foreground_service">Starting foreground service</string>
+    <string name="location_updated">Location Updated: </string>
+    <string name="service_started">Service started</string>
+    <string name="no_request_updates">Could not request updates. </string>
+    <string name="lost_location_permission">Lost Location permission. </string>
+    <string name="location_failed">Failed to get Location.</string>
+    <string name="no_remove_updates">Could not remove updates. </string>
+
+
+    <!--MainActivity-->
+    <string name="distance_in_meters">Distance in meters is: </string>
+    <string name="distance_between_called">DistanceBetween called: </string>
+    <string name="no_google_map">onDataChange: No GoogleMap</string>
+    <string name="has_google_map">onDataChange: Has GoogleMap</string>
+    <string name="my_location">My Location</string>
+    <string name="my_destination">My Desination</string>
+    <string name="gps_coordinates">GPS Coordinates: </string>
+    <string name="on_request_permission">onRequestPermissionResult</string>
+    <string name="interaction_cancelled">User interaction was cancelled.</string>
+    <string name="package_scheme">package</string>
+    <string name="default_location">onReceive: defaultLocation is: </string>
+    <string name="my_color">myColor</string>
+    <string name="my_number">myNumber </string>
+    <string name="distance">distance</string>
+    <string name="number_is">numberIs: </string>
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core functionality.</string>
+
+    <!--WelcomeActivity-->
+
+    <string name="problem_text">https://raw.githubusercontent.com/boredomdenied/inAFlash/master/problem.txt</string>
+    <string name="solution_text">https://raw.githubusercontent.com/boredomdenied/inAFlash/master/solution.txt</string>
+    <string name="welcome_text">https://raw.githubusercontent.com/boredomdenied/inAFlash/master/welcome.txt</string>
+
 </resources>
